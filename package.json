@@ -1,6 +1,6 @@
 {
   "name": "kit-tools",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "",
   "keywords": [
     "tools",
@@ -8,11 +8,13 @@
     "kit-core"
   ],
   "bin": {
-    "kit-tools": "./bin/kit-tools.js"
+    "kit-tools": "./bin/kit-tools.js",
+    "kit-tools-run": "./bin/kit-tools-run.js"
   },
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "node lib/init.js"
   },
   "repository": {
     "type": "git",
@@ -37,6 +39,7 @@
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
     "chalk": "^2.4.0",
+    "colors": "^1.2.1",
     "commander": "^2.15.1",
     "gulp": "^3.9.1",
     "gulp-babel": "^7.0.1",
