@@ -1,0 +1,56 @@
+{
+  "name": "kit-tools",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "tools",
+    "kit-react",
+    "kit-core"
+  ],
+  "bin": {
+    "kit-tools": "./bin/kit-tools.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fushenyou/kit-tools.git"
+  },
+  "author": "fusy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fushenyou/kit-tools/issues"
+  },
+  "homepage": "https://github.com/fushenyou/kit-tools#readme",
+  "dependencies": {
+    "autoprefixer": "^8.3.0",
+    "babel-core": "^6.26.0",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-es3-member-expression-literals": "^6.22.0",
+    "babel-plugin-transform-es3-property-literals": "^6.22.0",
+    "babel-plugin-transform-object-assign": "^6.22.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "chalk": "^2.4.0",
+    "commander": "^2.15.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.1",
+    "gulp-strip-code": "^0.1.4",
+    "gulp-typescript": "^4.0.2",
+    "gulp-watch": "^5.0.0",
+    "less": "^3.0.2",
+    "less-plugin-npm-import": "^2.1.0",
+    "merge2": "^1.2.1",
+    "minimist": "^1.2.0",
+    "postcss": "^6.0.21",
+    "rimraf": "^2.6.2",
+    "rucksack-css": "^1.0.2",
+    "through2": "^2.0.3",
+    "typescript": "^2.8.3"
+  }
+}

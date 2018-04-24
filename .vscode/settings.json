@@ -1,0 +1,21 @@
+{
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true
+    },
+    // Configure glob patterns for excluding files and folders.
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true
+    },
+    "javascript.implicitProjectConfig.experimentalDecorators": true,
+    "prettier.printWidth": 110,
+    "prettier.tabWidth": 4,
+    "prettier.singleQuote": true,
+    "eslint.options": {
+        "configFile": "./.eslintrc"
+    }
+}
