@@ -20,6 +20,7 @@
         {
             "type": "node",
             "request": "launch",
+            "sourceMaps": true,
             "name": "调试ts文件",
             "program": "${file}",
             "preLaunchTask": "tsc: build - tsconfig.json",
