@@ -1,0 +1,20 @@
+{
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/dist": true,
+        "**/coverge": true
+    },
+    "typescript.referencesCodeLens.enabled": true,
+    "tslint.ignoreDefinitionFiles": false,
+    "tslint.autoFixOnSave": true,
+    "prettier.printWidth": 110,
+    "prettier.tabWidth": 4,
+    "prettier.singleQuote": true,
+    "tslint.exclude": "**/node_modules/**/*",
+    "cSpell.words": [
+        "csrf",
+        "definitelytyped",
+        "promisified"
+    ]
+}
